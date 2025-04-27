@@ -13,7 +13,7 @@ def draw_circle(event, x, y, flags, param):
 cv2.namedWindow("Video")
 cv2.setMouseCallback("Video", draw_circle)
 
-capture = cv2.VideoCapture(0)
+capture = cv2.VideoCapture(2)
 
 while True:
     _, frame = capture.read()
